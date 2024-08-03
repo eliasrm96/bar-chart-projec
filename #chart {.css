@@ -1,0 +1,17 @@
+#chart {
+    position: relative;
+}
+
+.bar {
+    fill: steelblue;
+    transition: fill 0.3s;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+#tooltip {
+    pointer-events: none;
+    font-size: 14px;
+}
